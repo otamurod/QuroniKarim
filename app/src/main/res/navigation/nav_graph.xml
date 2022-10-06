@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/surahFragment">
+
+    <fragment
+        android:id="@+id/surahFragment"
+        android:name="com.otamurod.quronikarim.fragments.SurahFragment"
+        android:label="fragment_surah"
+        tools:layout="@layout/fragment_surah">
+        <action
+            android:id="@+id/action_surahFragment_to_openSurahFragment"
+            app:destination="@id/openSurahFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/openSurahFragment"
+        android:name="com.otamurod.quronikarim.fragments.OpenSurahFragment"
+        android:label="fragment_open_surah"
+        tools:layout="@layout/fragment_open_surah">
+        <action
+            android:id="@+id/action_openSurahFragment_to_readSurahFragment"
+            app:destination="@id/readSurahFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/readSurahFragment"
+        android:name="com.otamurod.quronikarim.fragments.ReadSurahFragment"
+        android:label="fragment_read_surah"
+        tools:layout="@layout/fragment_read_surah" />
+</navigation>

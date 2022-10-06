@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QUR\'ONI KARIM</string>
+    <string name="developer_name">Otamurod Safarov</string>
+    <string name="email_address">safarovotamurod@gmail.com</string>
+    <string name="version_code">Version 1.0</string>
+    <string name="about">About</string>
+    <string name="qur_on_kitobi_rasmi">Qur\'on Kitobi Rasmi</string>
+    <string name="contact_developer">Dasturchi Bilan Bog\'laning</string>
+    <string name="surah_number">Surah Number</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#092a2b"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/developer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:background="@drawable/bg5"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="@string/developer_name"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:drawableLeftCompat="@drawable/ic_creator" />
+
+    <TextView
+        android:id="@+id/developer_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:background="@drawable/bg5"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="@string/email_address"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:drawableLeftCompat="@drawable/ic_email" />
+
+    <TextView
+        android:id="@+id/app_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:background="@drawable/bg5"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="@string/version_code"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:drawableLeftCompat="@drawable/ic_version_info" />
+
+</LinearLayout>
